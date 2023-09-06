@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Jua&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffff;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav img {
+    height: 11rem;
+    width: 20rem;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-content: left;
+    position: absolute;
+    right: 5rem;
+    top: 2.2rem;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    font-family: 'Itim', cursive;
+    font-size: 1.45rem;
+    margin: 1.6rem;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+ul li.active a{
+    color:#1E7E67;
+    transition: all 0.4s ease 0s;
+}
+
+.sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.sec .heading{
+    width: 60%;
+    height: 4rem;
+    background-color: #85DDB3;
+    text-align:center;
+    font-size: 3rem;
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    justify-content: center; 
+    padding: 10px;
+}
+
+.div{
+    width: 80%;
+    height: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+    justify-content: center;
+}
+
+.div a{
+    text-decoration: none;
+    color: black;
+    width: 27rem;
+    height: 3rem;
+}
+.topic{
+    width: 30rem;
+    height: 4rem;
+    border: solid #85DDB3;
+    border-radius: 50px;
+    border-width: 4px;
+    margin: 0rem 2rem 1rem 0rem;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    padding: 25px 0px 0px 30px;
+}
+
+.main{
+    width: auto;
+    justify-content: center;
+    margin: 2rem 2.5rem 1rem 2.5rem;
+}
+
+.main p{
+    text-align: left;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+}
+
+.sec1{
+    padding: 0 2.5rem 0 2.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.sec1 p{
+    display: flex;
+    margin: 2rem;
+    text-align: left;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.sec1 h2{
+    font-size: 2rem;
+    color: #1E7E67;
+}
+
+.sec1 p img{
+    width: 25rem;
+    height: 15rem;
+    margin: 0 1.5rem;
+}
